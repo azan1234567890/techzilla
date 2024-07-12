@@ -1,0 +1,133 @@
+.vl {
+  border-left: 2px dashed #878a99;
+  height: 195px;
+  margin-left: auto;
+  padding: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media (min-width: 768px) {
+  .md\:w-auto {
+      width: auto;
+  }
+}
+
+.duration-300 {
+  transition-duration: 0.3s;
+}
+.transition {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+.font-semibold {
+  font-weight: 600;
+}
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+.text-center {
+  text-align: center;
+}
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+.to-pink-500 {
+  --tw-gradient-to: #ec4899 var(--tw-gradient-to-position);
+}
+.from-purple-500 {
+  --tw-gradient-from: #a855f7 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(168 85 247 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+.bg-gradient-to-br {
+  background-image: linear-gradient(to bottom right, var(--tw-gradient-stops)); */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .main-Container {
+    border: 1px solid rgba(255, 255, 255, 0.063);
+    border-radius: 1rem;
+    padding-left: 0px;
+    height: calc(100% - 30px);
+}
+
+.call-logs-content {
+    display: flex;
+    flex-direction: row;
+    height: calc(100% - 30px);
+  }
+ .call-logs-content2 {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgba(255, 255, 255, 0.063);
+    border-radius: 1rem;
+    padding-left: 0px;
+    flex: 1 1 auto; /* Adjust this to ensure proper flex behavior */
+  /* } */
+
+  /* .left-section {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    border: 1px solid rgba(255, 255, 255, 0.063);
+    border-radius: 1rem;
+    overflow: hidden;
+  } */ 
+
+
+
+

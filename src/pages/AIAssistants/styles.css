@@ -1,0 +1,186 @@
+/* styles.css */
+
+/* .page-content {
+    padding: 20px;
+    background-color: #1e1e1e;
+    color: #fff;
+  } */
+  
+  .left-column {
+    /* padding: 20px; */
+    /* background-color: #2a2a2a; */
+    border-right: 1px solid #444;
+  }
+  
+  .create-assistant-btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .assistants-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .assistants-list li {
+    padding: 10px 15px;
+    cursor: pointer;
+    border-bottom: 1px solid #16214beb;
+  }
+  
+  .assistants-list li.active {
+    background-color: #16214beb;
+  }
+  
+  .header-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .talk-with-assistant-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .metrics-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .metric {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .metric:last-child {
+    margin-right: 0;
+  }
+  
+  .progress-bar {
+    width: 100%;
+    background-color: #444;
+    height: 10px;
+    border-radius: 5px;
+    margin: 5px 0;
+    display: flex;
+    overflow: hidden;
+    flex-direction: row;
+  }
+  
+  .progress {
+    height: 100%;
+    border-radius: 0px;
+    background-color: #4e4ae969;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .tabs {
+    margin-top: 20px;
+  }
+  
+  .tabs-list {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    border-bottom: 2px solid #444;
+  }
+  
+  .tabs-list li {
+    padding: 10px 20px;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+  }
+  
+  .tabs-list li.active {
+    border-bottom: 2px solid #16214beb;
+    font-weight: bold;
+  }
+  
+  .tab-content {
+    margin-top: 20px;
+  }
+  
+  .publish-section {
+    margin-top: 20px;
+    text-align: right;
+  }
+  
+  .publish-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+
+
+
+.progress:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+}
+
+.progress:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.tooltip {
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 5px 10px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 5px;
+  white-space: nowrap;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s, visibility 0.3s;
+}
+
+.legend {
+  display: flex;
+  margin-top: 20px;
+  flex-direction: row;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  margin-right: 10px
+}
+
+.circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.table{
+  overflow-x: hidden;
+}
+
+
+@media (max-width: 600px) {
+  .table {
+      overflow-x: auto; /* Change to auto when width is 600px or more */
+  }
+}
